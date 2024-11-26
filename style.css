@@ -1,0 +1,396 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+/* ropoto*/
+@import url('https://fonts.googleapis.com/css2?family=Gelasio:ital,wght@0,400..700;1,400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+header{
+    width: 100%;
+    height: 105px;
+    background-color: #273720DE;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    font-size: 16px;
+  
+}
+header nav li{
+   display: flex;
+   font-size: 16px;
+    gap: 50px;
+    
+}
+header nav li ul a{
+    display: flex;
+    font-size: 16px;
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+}
+header .header_btns{
+    display: flex;
+   position: relative;
+   left: 360px;
+    justify-content: end;
+    align-items: end;
+    text-align: end;
+}
+
+header .header_btns button{
+    width: 130px;
+    height: 50px;
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-family: "Roboto", sans-serif;  
+}
+header .header_btns button span{
+    display: flex;
+    font-family: "Roboto", sans-serif;  
+}
+header .header_btns button:hover{
+    background-color: #42AE60;
+}
+/*header end*/
+.banner{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background-color: #273720;
+    padding: 100px 80px;
+    overflow: hidden;
+}
+.banner .banner_text{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.banner .banner_text h1{
+    font-size: 74px;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    font-family: "Roboto", sans-serif;  
+    font-weight: 400px;
+}
+.banner p{
+    display: flex;
+    width: 450px;
+    height: 70px;
+    font-size: 17px;
+    color: #fff;
+    font-family: "Roboto", sans-serif;  
+}
+.banner .banner_text button{
+    width: 150px;
+    height: 55px;
+    background-color: transparent;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-family: "Roboto", sans-serif;  
+    font-size: 16px;
+}
+.banner .banner_text button:hover{
+    background-color: #42AE60;
+}
+.banner .banner_img img{
+    width: 720px;
+    height: 465px;
+    position: relative;
+    left: 269px;
+}
+main{
+    width: 100%;
+    height: 30%;
+    background-color: #273720;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+main span{
+    width: 212px;
+    height: 68px;
+    font-size: 16px;
+    color: #fff;
+}
+.container{
+    width: 100%;
+    height: 140hv;
+}
+.container .text{
+    margin-top: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-family: "Roboto", sans-serif;  
+}
+.container .text h4{
+    font-size: 15px;
+    font-weight: 400;
+}
+.container .text h1{
+    font-size: 71px;
+    font-weight: 400;
+}
+.container p{
+    font-size: 17px;
+    font-weight: 400;
+}
+.container .text button{
+    width: 145px;
+    height: 55px;
+    background-color: transparent;
+    border: none;
+    font-size: 15px;
+    font-weight: 400;
+    border-radius: 5px;
+}
+.container .text button:hover{
+    background-color: #42AE60;
+    color: #fff;
+}
+.container .container_text{
+    display: flex;
+    gap: 200px;
+    margin-top: 70px;
+    justify-content: space-evenly;
+}
+.container .container_text .texts{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.container .container_text .texts h1{
+    font-weight: 400;
+}
+/*container end*/
+.box{
+    margin-top: 200px;
+}
+.box .text1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-family: "Roboto", sans-serif;  
+}
+.box .text1 h4{
+    font-weight: 400;
+    font-size: 16px;
+}
+.box .text1 h1{
+    font-weight: 400;
+    font-size: 70px;
+}
+.box .text1 p{
+    font-weight: 400;
+}
+.box .text1 button{
+    width: 145px;
+    height: 55px;
+    background-color: transparent;
+    border: none;
+    font-size: 15px;
+    font-weight: 400;
+    border-radius: 5px;
+}
+.box .text1 button:hover{
+    background-color: #42AE60;
+    color: #fff;
+}
+.box .boxs{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 120px;
+}
+.box .boxs .box1{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.box .boxs .box1 h1{
+    font-weight: 400;
+}
+.box .boxs .box2 .img1 img {
+    position: relative;
+    bottom: 40px;
+}
+.box .boxs .box2 .img2 img{
+    position: relative;
+    bottom: 100px;
+    z-index: -1;
+}
+.box .boxs .box2 .img3 img{
+    position: relative;
+    bottom: 638px;
+    left: 220px;
+}
+/*box end*/
+aside{
+    width: 100%;
+    height: 200vh;
+    background-color: #273720;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 120px;
+    gap: 20px;
+    font-family: "Roboto", sans-serif;  
+    overflow: hidden;
+}
+aside h1{
+    font-size: 72px;
+    font-weight: 400;
+}
+aside .cards{
+    display: flex;
+    gap: 50px;
+}
+aside .cards .card1{
+    width: 880px;
+    height: 490px;
+    background-color: #fff;
+    color: black;
+    border-radius: 40px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 32px;
+    padding: 44px 82px;
+   
+}
+aside .cards .card2{
+    width: 880px;
+    height: 490px;
+    background-color: #fff;
+    color: black;
+    border-radius: 40px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 32px;
+    padding: 44px 82px;
+}
+aside .cards .card2 span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+aside .cards .card2 .imgs{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
+aside .cards .card2 .imgs h4{
+    font-size: 18px;
+    font-weight: 400;
+}
+aside .cards .card3{
+    width: 880px;
+    height: 490px;
+    background-color: #fff;
+    color: black;
+    border-radius: 40px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 32px;
+    padding: 44px 82px;
+
+}
+aside .cards .card3 span{
+    display: flex;
+    text-align: center;
+}
+aside .icons{
+    display: flex;
+    gap: 20px;
+}
+/*aside end*/
+.need{
+    display: flex;
+    background-color: #273720;
+    color: #fff;
+    font-family: "Roboto", sans-serif;  
+}
+.need .need_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.need .need_text h1{
+    width: 1000px;
+    height: 280px;
+    font-size: 80px;
+    font-weight: 400;
+}
+.need .need_text button{
+    width: 150px;
+    height: 50px;
+    background-color: transparent;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    margin-left: 390px;
+}
+.need .need_text button:hover{
+    background-color: #42AE60;
+}
+/*need end*/
+ footer{
+    width: 100%;
+    height: 415px;
+    background-color: #273720;
+    font-family: "Roboto", sans-serif;  
+ }
+ footer .card{
+    display: flex;
+    color: #fff;
+    gap: 20px;
+    justify-content: space-evenly;
+ }
+ footer .card .cards{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+ }
+ footer .card .cards h1{
+    font-weight: 400;
+    font-size: 31px;
+ }
+ footer .card .cards h2{
+    font-weight: 400;
+    font-size: 17px;
+ }
+ footer .card .cards .icon{
+    display: flex;
+    gap: 40px;
+    
+ }
+ footer .card .cards .icon i{
+    width: 34px;
+    height: 34px;
+    font-size: 24px;
+    
+ }
+
+
